@@ -28,7 +28,7 @@ body {
 }
 .alue1{
   width: 70%;
-  bborder-right:5px italic;
+  border-right:5px italic;
 /*
   margin-top: 25px;
   margin-bottom: 25px;
@@ -95,4 +95,69 @@ a:active {
   position: fixed;
   top: 500;
   left: 5px;
+}
+*{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style:none;
+}
+ul li{
+  padding:5px;
+  background: rgb(245, 245, 245);
+  margin: 5px 0;
+}
+header{
+  background: rgb(245, 245, 245);
+  padding: 10px;
+  text-align: center;
+}
+#opiskelija-lomake{
+  background:  rgb(245, 245, 245);
+  padding: 15px;
+}
+#opiskelija-lomake input[type='type']{
+  width:100%;
+  padding: 8px;
+  margin-bottom:10px;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+.kurssinappi{
+  display:block;
+  widht:100%;
+  padding:10px 15px;
+  border: 0;
+  background: rbg(245, 245, 245);
+  color:#fff;
+  border-radius:5px;
+  margin: 5px 0px;
+}
+.kurssinappi:hover{
+  background: #444;
+}
+.merkinta{
+  display:block;
+  width:100%;
+  padding:10px 15px;
+  border: 0;
+  background: rbg(245, 245, 245);
+  color:#fff;
+  border-radius:5px;
+  margin: 5px 0px;
+}
+.merkinta:hover{
+  background: #444;
+}
+.lomake-alue{
+  padding:10px 15;
+  width: 70%;
+  margin: auto;
+}
+.virhe{
+  background: red;
+  color: #fff;
+  padding: 10px;
+  margin:10px;
 }
