@@ -156,8 +156,10 @@ kurssinappi.addEventListener('click', e=>{
     virhe.innerHTML = 'Täytä kaikki kentät';
     kurssinappi.style.background = 'red';
     kurssinappi.value = 'Virhe, en lisännyt tietoa.';
-    setTimeout(()=> virhe.remove(), 3000);
+
+    setTimeout(()=> virhe.classremove(), 3000);
     setTimeout(()=> kurssinappi.style.background=rbg(245, 245, 245), 3000);
+    
     setTimeout(()=> kurssinappi.value = 'Lisää tieto', 3000);
   }else{
 

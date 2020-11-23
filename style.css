@@ -124,9 +124,9 @@ header{
   border-radius:5px;
   border:1px solid #ccc;
 }
-.kurssinappi{
+.lahetanappi {
   display:block;
-  widht:100%;
+  width:100%;
   padding:10px 15px;
   border: 0;
   background: rbg(245, 245, 245);
