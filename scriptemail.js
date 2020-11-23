@@ -18,7 +18,7 @@ function sendJSON(){
       console.log("valmis, yhteys toimii")
     }
   };
-  var data = JSOn.stringify({
+  var data = JSON.stringify({
     "EmailMsg": "Tähän tulee postian sisältö", // Kirjoittaa sähköpostin sisällön
     "EmailAddress": "mira.vorne@salpaus.fi", //from sähköposti
     "EmailTo": "konsta.vilkman@edu.salpaus.fi", //To sähköposti
