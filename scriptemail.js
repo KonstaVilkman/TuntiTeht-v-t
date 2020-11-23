@@ -22,7 +22,7 @@ function sendJSON(){
     "EmailMsg": "Tähän tulee postian sisältö", // Kirjoittaa sähköpostin sisällön
     "EmailAddress": "mira.vorne@salpaus.fi", //from sähköposti
     "EmailTo": "konsta.vilkman@edu.salpaus.fi", //To sähköposti
-    "EmailName": "Teppo Tyyppi",
+    "EmailName": "Tyyppi",
   });
   xhr.send(data);
 }
