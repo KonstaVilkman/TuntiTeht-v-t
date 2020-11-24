@@ -13,8 +13,8 @@ function sendJSON(){
   xhr.open("POST", url, true);
   xhr.setRequestHeader("Content-type", "application/json")
 
-  xhr.onreadystateechange = function(){
-    if(xhr-readyState === 4 && xhr.status === 200){
+  xhr.onreadystatechange = function(){
+    if(xhr.readyState === 4 && xhr.status === 200){
       console.log("valmis, yhteys toimii")
     }
   };
